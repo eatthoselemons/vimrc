@@ -48,8 +48,8 @@ It will compile YouCompleteMe and a few other modules but once it is done you sh
 
 The main keybind that I added is to map `jk` to `Esc` so that my fingers don't have to leave the home row to esc insert mode
 
-I also made capital `h` and `l` move the beginning and end of the line respectively
+I also made capital `h`(`H`) and `l`(`L`) move the beginning and end of the line respectively
 
-Capital `j` and `k` map to move 10 lines up or down
+Capital `j`(`J`) and `k`(`K`) map to move 10 lines up or down
 
 <space>c starts a comment on python and javascript files
