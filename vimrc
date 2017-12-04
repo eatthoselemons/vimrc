@@ -9,21 +9,28 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+
+"comment plugins
 Plugin 'tpope/vim-surround'
+Plugin 'scrooloose/nerdcommenter'
+
+"Syntax plugins
 Plugin 'scrooloose/syntastic'
+Plugin 'valloric/youcompleteme'
+
+"color/aestetics plugins
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-bufferline'
-"Plugin 'scrooloose/nerdtree'
-Plugin 'scrooloose/nerdcommenter'
 Plugin 'bling/vim-airline'
-Plugin 'scrooloose/nerdtree'
-Plugin 'yuttie/comfortable-motion.vim'
 Plugin 'vim-airline/vim-airline-themes'
+"Plugin 'yuttie/comfortable-motion.vim'
+Plugin 'tpope/vim-fugitive'
+
+"Window plugins
 Plugin 'wesq3/vim-windowswap'
 Plugin 'jimsei/winresizer'
 Plugin 'mbbill/undotree'
-Plugin 'valloric/youcompleteme'
-Plugin 'tpope/vim-fugitive'
+Plugin 'scrooloose/nerdtree'
 
 
 " All of your Plugins must be added before the following line
@@ -45,8 +52,6 @@ syntax enable
 set background=dark
 colorscheme solarized
 
-let g:comfortable_motion_scroll_down_key = "J"
-let g:comfortable_motion_scroll_up_key = "K"
 
 " air-line
 let g:airline_theme='badwolf'
