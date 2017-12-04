@@ -1,7 +1,7 @@
 # My Vimrc
 ## Summary
 This is my vimrc that I am using it has some of my own customizations and some plugins using vundle
-I am running neovim (https://neovim.io) on debian 8 and 9
+I am running [neovim](https://neovim.io) on debian 8 and 9
 
 ## Install
 To have this work correctly you will need to install the fixed powerline fonts (airline), and run setup for YouCompleteMe
