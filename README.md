@@ -1,4 +1,4 @@
-# vimrc
+# My Vimrc
 ## Summary
 This is my vimrc that I am using it has some of my own customizations and some plugins using vundle
 I am running neovim (https://neovim.io) on debian 8 and 9
@@ -40,3 +40,16 @@ For YouCompleteMe I just installed with javascript and C++
 Navagate to `~/.vim/bundle/youcompleteme/` and run `$./install.py --js-completer --clang-completer`
 
 It will compile YouCompleteMe and a few other modules but once it is done you should be all good to go!
+
+
+
+
+# Basic Keybinds
+
+The main keybind that I added is to map `jk` to `Esc` so that my fingers don't have to leave the home row to esc insert mode
+
+I also made capital `h` and `l` move the beginning and end of the line respectively
+
+Capital `j` and `k` map to move 10 lines up or down
+
+<space>c starts a comment on python and javascript files
