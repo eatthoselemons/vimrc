@@ -8,6 +8,10 @@ To have this work correctly you will need to install the fixed powerline fonts (
 
 #### Basic setup
 Clone this repo
+
+Clone Vundle into ~/.vim/bundle:
+`git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+
 Install Neovim:
 Follow the instructions [here](https://github.com/neovim/neovim/wiki/Building-Neovim) to build neovim if it isn't available in your package manager
 
