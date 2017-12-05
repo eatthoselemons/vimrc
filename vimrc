@@ -55,7 +55,9 @@ colorscheme solarized
 
 " air-line
 let g:airline_theme='badwolf'
-set guifont="DejaVu Sans Mono Oblique for Powerline":s12
+set guifont="Arimo Powerline"
+"set guifont=Anonymice\ Powerline
+"set guifont="DejaVu Sans Mono Oblique for Powerline":s12
 if !exists('g:airline_symbols')
   let g:airline_symbols = {}
 endif
@@ -71,7 +73,7 @@ let g:airline_left_sep = '▶'
 let g:airline_right_sep = '◀'
 let g:airline_symbols.linenr = '␊'
 let g:airline_symbols.linenr = '␤'
-let g:airline_symbols.branch = '⎇'
+let g:airline_symbols.branch = '⎇ '
 let g:airline_symbols.paste = 'ρ'
 let g:airline_symbols.paste = '∥'
 "let g:airline_symbols.whitespace = 'Ξ'
@@ -98,8 +100,8 @@ set number
 
 noremap H ^
 noremap L $
-"noremap J 10j
-"noremap K 10k
+noremap J 10j
+noremap K 10k
 
 "filetype off
 "filetype plugin indent on
@@ -109,8 +111,8 @@ noremap L $
 
 "Setting leaders
 
-let mapleader = ","
-let maplocalleader = " "
+let mapleader = " "
+let maplocalleader = ","
 
 
 iabbrev ccopy Copyright 2017 Ethan Lambert, all rights reserved
