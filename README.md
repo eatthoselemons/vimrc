@@ -52,4 +52,4 @@ I also made capital `h`(`H`) and `l`(`L`) move the beginning and end of the line
 
 Capital `j`(`J`) and `k`(`K`) map to move 10 lines up or down
 
-<space>c starts a comment on python and javascript files
+(space)c starts a comment on python and javascript files
