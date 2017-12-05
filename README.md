@@ -30,9 +30,9 @@ Install the fonts:
 
 
 For YouCompleteMe you will need python support so run the following commands:
-`pip install -upgrade neovim
-pip2 install -upgrade neovim
-pip3 install -upgrade neovim`
+`pip install --upgrade neovim
+pip2 install --upgrade neovim
+pip3 install --upgrade neovim`
 
 Which should give neovim the python support needed for YouCompleteMe
 
