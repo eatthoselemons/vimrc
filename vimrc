@@ -122,11 +122,16 @@ autocmd BufWritePre,BufRead *.html :normal gg=G
 
 "file comments
 
-autocmd FileType javascript nnoremap <buffer> <localleader>c i//<esc>
-autocmd FileType python nnoremap <buffer> <localleader>c i#<esc>
+autocmd FileType javascript nnoremap <buffer> <leader>c i//<esc>
+autocmd FileType python nnoremap <buffer> <leader>c i#<esc>
 
 
+onoremap <leader>p i(
+onoremap <leader>b i[ 
+onoremap <leader>m i{
 
-onoremap <localleader>p i(
-onoremap <localleader>b i[ 
-onoremap <localleader>m i{
+nnoremap <leader>w <C-w>
+nnoremap wj <C-w>j
+nnoremap wk <C-w>k
+nnoremap wh <C-w>h
+nnoremap wl <C-w>l
