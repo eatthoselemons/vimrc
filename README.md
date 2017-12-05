@@ -17,7 +17,7 @@ Link the neovim config file. For example:
 `ln -s /home/user/git/vimrc/init.vim /home/user/.config/nvim/init.vim`
 
 I also added this in my ~/.bashrc to make getting to nvim easier, since I don't have to remember to open a different text editor from now on (note it would be best to remove vim if you do this)
-`alias vim="nvim"`
+`alias vim="nvim"` (keep in mind that you will need to restart your terminal session for the alias to take effect if only put in your bashrc)
 
 Once all this is done open nvim (vim for me since I aliased it) and run `:PluginInstall` this might take a while as it goes through installing the plugins
 
