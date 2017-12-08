@@ -23,8 +23,15 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-bufferline'
 Plugin 'bling/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-"Plugin 'yuttie/comfortable-motion.vim'
+Plugin 'yuttie/comfortable-motion.vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'arcticicestudio/nord-vim'
+Plugin 'nightsense/office'
+Plugin 'Badacadabra/vim-archery'
+Plugin 'nightsense/vrunchbang'
+Plugin 'tomasr/molokai'
+Plugin 'sjl/badwolf'
+
 
 "Window plugins
 Plugin 'wesq3/vim-windowswap'
@@ -47,15 +54,19 @@ filetype plugin on
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
- 
+
+"set t_Co=256
 syntax enable
 set background=dark
-colorscheme solarized
+let g:office_dark_LineNr = 'off'
+colorscheme nord
 
+highlight Normal ctermbg=236 ctermfg=2
+highlight Normal ctermbg=236 ctermfg=2
 
 " air-line
-let g:airline_theme='badwolf'
-set guifont="Arimo Powerline"
+"let g:airline_theme='badwolf'
+"set guifont="Arimo Powerline"
 "set guifont=Anonymice\ Powerline
 "set guifont="DejaVu Sans Mono Oblique for Powerline":s12
 if !exists('g:airline_symbols')
@@ -111,7 +122,7 @@ noremap K 10k
 
 "Setting leaders
 
-let mapleader = " "
+"let mapleader = " "
 let maplocalleader = ","
 
 
