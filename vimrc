@@ -134,6 +134,7 @@ autocmd BufWritePre,BufRead *.html :normal gg=G
 "file comments
 
 autocmd FileType javascript nnoremap <buffer> <leader>c i//<esc>
+autocmd FileType vue nnoremap <buffer> <leader>c i//<esc>
 autocmd FileType python nnoremap <buffer> <leader>c i#<esc>
 
 
@@ -146,3 +147,6 @@ nnoremap wj <C-w>j
 nnoremap wk <C-w>k
 nnoremap wh <C-w>h
 nnoremap wl <C-w>l
+
+set ignorecase
+set smartcase
